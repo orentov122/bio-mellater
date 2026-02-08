@@ -1,0 +1,145 @@
+/* Фоновое фото для всего сайта */
+body {
+    margin: 0;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    min-height: 100vh;
+    color: #fff;
+    background-image: url('./assets/trava.jpg'); /* путь к вашему фото */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Блок с аватаром и ссылкой на Telegram */
+.avatar-selection {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    background-color: rgba(27, 27, 27, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.avatar-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.nickname-title, .social-title {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.dm-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #1858b8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.dm-link:hover {
+    background-color: #156bce;
+    transform: translateY(-3px);
+}
+
+/* Блок описания */
+.desc-selection {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background-color: rgba(27, 27, 27, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.desc-main {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Социальные ссылки / GitHub */
+.social-links {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.githib-link {
+    background-color: rgba(27, 27, 27, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.github-title {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.githib-link a {
+    color: #1858b8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.githib-link a:hover {
+    color: #156bce;
+}
+.lc:hover, .lcc:hover {
+    transform: translateY(-5px);
+    width: 200px;
+    background-color: #156bce;
+}
+
+.orentov-shop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin: auto 0 30px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(27, 27, 27, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+    max-width: 600px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.orentov_spg {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.shop-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.shop-desc {
+    font-size: 14px;
+    color: #bdbdbd;
+    margin: 0;
+}
